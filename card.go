@@ -33,3 +33,7 @@ type Card struct {
   Suit
   Rank
 }
+
+func (c Card)String () string{
+  return "Ace of Hearts"
+}
