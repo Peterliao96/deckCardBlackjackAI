@@ -1,9 +1,12 @@
+//go:generate stringer -type=Suit,Rank
+
 package deckCardBlackjackAI
+
 
 type Suit uint8
 
 const (
-  Spade Suit = iota // increment by 1
+  Spade Suit = iota
   Diamond
   Club
   Heart
